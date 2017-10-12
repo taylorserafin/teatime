@@ -1,0 +1,148 @@
+/*Main Styles*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.content-heading {
+    margin: 10px 0 20px 0;
+}
+
+.description {
+    margin: 5px 0 10px 0;
+}
+
+/*Header Styles*/
+
+header {
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/*Mission Styling*/
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("./../images/mission-background.jpg");
+  padding-top: 69px;
+  margin: 0 auto;
+  align-items: center;
+  background-size: cover;
+  display: flex;
+}
+
+.mission-box {
+  width: 1200px;
+  background-color:black;
+  margin: 0;
+  align-items: center;
+}
+
+/*Tea of the Month Styling*/
+
+.featured-tea {
+  width: 1000px;
+  padding: 70px 0 30px 0;
+  margin: 0 auto;
+}
+
+.featured-tea img {
+  height: 200px;
+  width:300px;
+}
+
+.featured-tea div {
+  margin: 10px;
+}
+
+.featured-tea div h4 {
+  margin-top: 10px;
+}
+
+.tea-options {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Locations Styling*/
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("./../images/location.jpg");
+  margin: 0 auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 69px;
+}
+
+.option {
+  flex-basis: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-options {
+  justify-content: center;
+  display: flex;
+}
+
+.option h4{
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+/*Footer Styling*/
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
